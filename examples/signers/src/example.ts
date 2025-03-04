@@ -49,7 +49,7 @@ function getTransferSolTransactionMessage(signer: TransactionSigner) {
     // Create the transfer SOL instruction by passing the signer as the source.
     const instruction = getTransferSolInstruction({
         amount: 1n,
-        destination: address('ED1WqT2hWJLSZtj4TtTdoovmpMrr7zpkUdbfxmcJR1Fq'),
+        destination: address('fgsaf'),
         source: signer, // <- We pass the signer here, not just the address.
     });
 
